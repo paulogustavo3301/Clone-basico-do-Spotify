@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utility classes */
+.btn-primery{
+    background:#1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 16px 48px 18px ;
+    border: none;
+    border-radius: 30px ;
+    letter-spacing: 1px;
+}
+
+
+/* Naverbar */
+#nevbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+#nevbar .nevbar-container{
+width: 60%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 26px;
+}
+#nevbar .nevbar-container .logo{
+    height: 41.89px;
+    width:  89;
+}
+#nevbar .nevbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+#nevbar .nevbar-container ul li {
+    padding: 0 20px;
+}
+#nevbar .nevbar-container ul li:nth-child(3){
+    border-right: 1px solid white
+}
+/* Showcase */
+#showcase {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue; 
+    background: url(./showcase.webp) center center/cover; 
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#showcase .showcase-container h2 {
+    font-size: 3.20rem;
+
+}
+#showcase .showcase-container p  {
+    margin: 15px;
+    font-size: 1.1;
+
+}
